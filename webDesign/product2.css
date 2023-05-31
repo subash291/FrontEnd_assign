@@ -1,0 +1,33 @@
+body{
+  background-color: rgb(247, 228, 228);
+}
+.carts{
+  position:fixed;
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.products{
+  background-color: rgb(210, 129, 210);
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+.card{
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .card-img-top {
+    height: auto;
+  }
+
